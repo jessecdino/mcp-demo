@@ -1,0 +1,8 @@
+/* Shared Tailwind CSS v4 base configuration */
+@import "tailwindcss";
+
+@theme {
+  /* Design tokens — override per app via @theme in app globals.css */
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+}

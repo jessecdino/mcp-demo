@@ -1,0 +1,8 @@
+{
+  "extends": "@mcp-demo/typescript-config/react-library.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [".storybook/**/*.ts", ".storybook/**/*.tsx"],
+  "exclude": ["node_modules"]
+}

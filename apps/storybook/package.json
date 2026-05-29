@@ -1,0 +1,31 @@
+{
+  "name": "@mcp-demo/storybook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@mcp-demo/ui": "*"
+  },
+  "devDependencies": {
+    "@mcp-demo/eslint-config": "*",
+    "@mcp-demo/tailwind-config": "*",
+    "@mcp-demo/typescript-config": "*",
+    "@storybook/addon-docs": "^10.4.1",
+    "@storybook/react-vite": "^10.4.1",
+    "@tailwindcss/vite": "^4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint": "^9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "storybook": "^10.4.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite": "^6.3.5"
+  }
+}

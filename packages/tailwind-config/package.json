@@ -1,0 +1,12 @@
+{
+  "name": "@mcp-demo/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4"
+  }
+}
